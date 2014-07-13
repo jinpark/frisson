@@ -1177,7 +1177,7 @@ body:before {
 
 #header-navigation[role="navigation"] li a:hover,
 #header-navigation[role="navigation"] li a:focus {
-	color: #e47c14;
+	color: rgba(144, 46, 41, 1);
 }
 
 #header-navigation.is-sticky {

@@ -224,7 +224,7 @@ blockquote cite a:visited {
 	
 a, 
 a:visited { 
-	color: #e47c14; 
+	color: #902e29; 
 	text-decoration: underline; 
 	outline: 0;
 	-moz-transition: all .4s;
@@ -1882,4 +1882,9 @@ nav select {
 	font-family: 'Great Vibes', cursive;
 	font-size: 1.0em;
 	text-transform: none;
+}
+
+.header-logo.eight.columns {
+	width: auto;
+	float: right;
 }

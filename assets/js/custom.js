@@ -151,6 +151,31 @@ jQuery(document).ready(function ($) {
 	
 	$('.service.one-third.column').eq(3).addClass('clearcol');
 
+	/* Initialize i18n object
+	--------------------------------------------------*/
+	I18N = $.i18n();
+
+
+	$("#fr-button").on("click",function(event){
+		I18N.locale = 'fr'
+		I18N.load('i18n/fr.json', 'fr').done(function(){
+			$( '.translate' ).i18n();	
+		});
+		$("#fr-button").hide();
+		$("#en-button").show();
+		event.preventDefault();
+	})
+
+		$("#en-button").on("click",function(event){
+		I18N.locale = 'en'
+		I18N.load('i18n/en.json', 'en').done(function(){
+			$( '.translate' ).i18n();	
+		});
+		$("#en-button").hide();
+		$("#fr-button").show();
+		event.preventDefault();
+	})
+
 	/* End all Custom Functions */
 		
 });

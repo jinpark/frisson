@@ -1177,7 +1177,7 @@ body:before {
 
 #header-navigation[role="navigation"] li a:hover,
 #header-navigation[role="navigation"] li a:focus {
-	color: rgba(144, 46, 41, 1);
+	color: #cc3333;
 }
 
 #header-navigation.is-sticky {
@@ -1192,7 +1192,7 @@ body:before {
 
 #header-navigation.is-sticky[role="navigation"] li a:hover,
 #header-navigation.is-sticky[role="navigation"] li a:focus {
-	color: #e47c14;
+	color: #cc3333;
 }
 
 nav select {
@@ -1223,7 +1223,7 @@ nav select {
 }
 
 #filter {
-	background-color: #A7A7A7;
+	background-color: #333;
 	display: inline-block;
 	margin-top: 20px;
 }
@@ -1244,7 +1244,7 @@ nav select {
 
 #filter li a:hover,
 #filter li .current {
-	color: rgba(144, 46, 41, 1);
+	color: #cc3333;
 }
 
 /* Portfolio Items */

@@ -1868,3 +1868,18 @@ nav select {
 
 /* Mobile Portrait Size Only (devices and browsers) */
 @media only screen and (max-width: 320px) {}
+
+
+/*Custom css*/
+
+.logo-text {
+	font-family: 'Great Vibes', cursive;
+	font-size: 2.2em;
+	text-transform: none;
+}
+
+.logo-text-small {
+	font-family: 'Great Vibes', cursive;
+	font-size: 1.0em;
+	text-transform: none;
+}

@@ -1907,3 +1907,21 @@ nav select {
 	margin-bottom: 0px;
 }
 
+.flex-caption {
+	width: 96%;
+	padding: 2%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: rgba(144, 46, 41, .5);
+	color: #fff;
+	text-align: center;
+	font-size: 1em;
+	line-height: 18px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+}
+
+.flexslider ol.flex-control-nav {
+	bottom: -60px;
+}

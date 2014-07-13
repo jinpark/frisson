@@ -166,7 +166,7 @@ jQuery(document).ready(function ($) {
 		event.preventDefault();
 	})
 
-		$("#en-button").on("click",function(event){
+	$("#en-button").on("click",function(event){
 		I18N.locale = 'en'
 		I18N.load('i18n/en.json', 'en').done(function(){
 			$( '.translate' ).i18n();	

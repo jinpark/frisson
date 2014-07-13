@@ -1925,3 +1925,15 @@ nav select {
 .flexslider ol.flex-control-nav {
 	bottom: -60px;
 }
+
+.translate-button {
+	display:none; 
+	float:right;
+	color: #a7a7a7;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+#fr-button {
+	display: block;
+}

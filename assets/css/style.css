@@ -73,13 +73,13 @@ table {
 }
 	
 ::-moz-selection {
-	background: #e47c14;
+	background: rgba(144, 46, 41, 1);
 	color: #fff;
 	text-shadow: none
 }
 
 ::selection {
-	background: #e47c14;
+	background: rgba(144, 46, 41, 1);
 	color: #fff;
 	text-shadow: none
 }
@@ -1223,7 +1223,7 @@ nav select {
 }
 
 #filter {
-	background-color: #333;
+	background-color: #A7A7A7;
 	display: inline-block;
 	margin-top: 20px;
 }
@@ -1244,7 +1244,7 @@ nav select {
 
 #filter li a:hover,
 #filter li .current {
-	color: #e47c14;
+	color: rgba(144, 46, 41, 1);
 }
 
 /* Portfolio Items */

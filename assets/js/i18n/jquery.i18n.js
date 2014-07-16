@@ -232,7 +232,7 @@
 				messageKey = $this.data( 'i18n' );
 
 			if ( messageKey ) {
-				$this.text( i18n.parse( messageKey ) );
+				$this.html( i18n.parse( messageKey ) );
 			} else {
 				$this.find( '[data-i18n]' ).i18n();
 			}
